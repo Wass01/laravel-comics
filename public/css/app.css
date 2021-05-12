@@ -71,7 +71,7 @@ nav.navbar .search i {
 }
 
 .comics {
-  height: 650px;
+  height: 640px;
   background-color: #464646;
 }
 .comics button.btn-jumbo {
@@ -84,4 +84,36 @@ nav.navbar .search i {
   border: none;
   position: relative;
   bottom: 20px;
+  right: 5px;
+}
+.comics .comics-child {
+  display: flex;
+  flex-wrap: wrap;
+}
+.comics .comics-child .comics-card {
+  width: calc(100%/12*2);
+  margin-top: 30px;
+}
+.comics .comics-child .comics-card img {
+  width: 180px;
+  height: 180px;
+}
+.comics .comics-child .comics-card p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 180px;
+}
+.comics .load {
+  text-align: center;
+  margin-top: 50px;
+}
+.comics .load button {
+  width: 180px;
+  padding: 10px 17px;
+  text-transform: uppercase;
+  background-color: #0282F9;
+  color: #ffffff;
+  font-size: 13px;
+  border: none;
 }
