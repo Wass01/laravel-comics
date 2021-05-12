@@ -117,3 +117,27 @@ nav.navbar .search i {
   font-size: 13px;
   border: none;
 }
+
+.info {
+  height: 100px;
+  background-color: #0282F9;
+  display: flex;
+  align-items: center;
+}
+.info .info-child {
+  display: flex;
+  justify-content: space-between;
+}
+.info .info-child .info-card {
+  display: flex;
+  align-items: center;
+}
+.info .info-child .info-card img {
+  height: 50px;
+}
+.info .info-child .info-card p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-left: 10px;
+}
