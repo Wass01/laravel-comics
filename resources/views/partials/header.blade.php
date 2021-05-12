@@ -48,6 +48,7 @@
 
     <div class="search">
       <input type="text" placeholder="Search">
+      <i class="fas fa-search"></i>
     </div>
 
   </nav>

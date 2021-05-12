@@ -46,15 +46,20 @@ nav.navbar ul {
 nav.navbar ul li a {
   color: #464646;
   text-transform: uppercase;
-  padding: 0 10px;
+  padding: 0 12px;
 }
 nav.navbar ul li a:hover {
   color: #0282F9;
-  border-bottom: 2px solid #0282F9;
+  border-bottom: 3px solid #0282F9;
 }
-nav.navbar input {
+nav.navbar .search input {
   border: none;
+  border-bottom: 3px solid #0282F9;
 }
-nav.navbar input:focus {
-  border: none;
+nav.navbar .search input:focus {
+  outline: none;
+}
+nav.navbar .search i {
+  position: relative;
+  right: 30px;
 }

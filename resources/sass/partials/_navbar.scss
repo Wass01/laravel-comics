@@ -6,17 +6,24 @@ nav.navbar{
     li a{
       color: $navbar;
       text-transform: uppercase;
-      padding: 0 10px;
+      padding: 0 12px;
       &:hover{
         color: $primary;
-        border-bottom: 2px solid $primary;
+        border-bottom: 3px solid $primary;
       }
     }
   }
-  input{
-    border: none;
-    &:focus{
+  .search{
+    input{
       border: none;
+      border-bottom: 3px solid $primary;
+      &:focus{
+        outline:none;
+      }
+    }
+    i{
+      position: relative;
+      right: 30px;
     }
   }
 }
