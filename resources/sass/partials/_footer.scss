@@ -1,0 +1,14 @@
+.jumbofoot{
+  background-image: url('../img/footer-bg.jpg');
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  img{
+    position: absolute;
+    left: 750px;
+    bottom: -15px;
+    height: 550px;
+  }
+}

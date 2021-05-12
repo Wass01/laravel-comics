@@ -141,3 +141,18 @@ nav.navbar .search i {
   font-size: 12px;
   margin-left: 10px;
 }
+
+.jumbofoot {
+  background-image: url("../img/footer-bg.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.jumbofoot img {
+  position: absolute;
+  left: 750px;
+  bottom: -15px;
+  height: 550px;
+}
