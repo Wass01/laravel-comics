@@ -50,6 +50,9 @@
       <input type="text" placeholder="Search">
       <i class="fas fa-search"></i>
     </div>
-
   </nav>
+
+  <div class="jumbo">
+    <!-- <img src="" alt=""> -->
+  </div>
 </header>
