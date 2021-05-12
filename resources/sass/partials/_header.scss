@@ -1,0 +1,14 @@
+.headtop{
+  height: 30px;
+  background-color: $primary;
+  @include flex-align-center;
+  div{
+    @include flex-end;
+    p{
+      padding: 0 30px;
+      font-size: 12px;
+      color: $white;
+      text-transform: uppercase;
+    }
+  }
+}
