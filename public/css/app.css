@@ -69,3 +69,19 @@ nav.navbar .search i {
   position: relative;
   right: 30px;
 }
+
+.comics {
+  height: 650px;
+  background-color: #464646;
+}
+.comics button.btn-jumbo {
+  width: 200px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  background-color: #0282F9;
+  color: #ffffff;
+  font-size: 17px;
+  border: none;
+  position: relative;
+  bottom: 20px;
+}
