@@ -32,6 +32,38 @@
 
   <!-- third main -->
   <div class="third-main">
+    <div class="container">
+      <div class="talent info-third">
+        <h2>Talent</h2>
+        <div class="description-third">
+          <h4>Art by:</h4>
+          @foreach ($comic['artists'] as $artist)
+          <p>{{ $artist }},</p>
+          @endforeach
+        </div>
+        <div class="description-third">
+          <h4>Written by:</h4>
+          @foreach ($comic['writers'] as $writer)
+          <p>{{ $writer }},</p>
+          @endforeach
+        </div>
+      </div>
+      <div class="specs info-third">
+        <h2>Specs</h2>
+        <div class="description-third">
+          <h4>Series:</h4>
+          <h3>{{ $comic['series']}}<h3>
+        </div>
+        <div class="description-third">
+          <h4>U.S. Price:</h4>
+          <p>{{ $comic['price']}}</p>
+        </div>
+        <div class="description-third">
+          <h4>On Sale Date:</h4>
+          <p>{{ $comic['sale_date']}}</p>
+        </div>
+      </div>
+    </div>
 
   </div>
 

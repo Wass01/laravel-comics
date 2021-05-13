@@ -220,6 +220,36 @@ nav.navbar .search i {
 .third-main {
   height: 450px;
   background-color: #F6F6F6;
+  padding-top: 40px;
+}
+.third-main > div {
+  display: flex;
+}
+.third-main > div .info-third {
+  width: 50%;
+  padding: 0 20px;
+}
+.third-main > div .info-third h2 {
+  color: #003F5E;
+  margin-bottom: 20px;
+}
+.third-main > div .info-third .description-third {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-top: 1px solid #464646;
+}
+.third-main > div .info-third .description-third h4 {
+  color: #003F5E;
+  width: 40%;
+}
+.third-main > div .info-third .description-third p {
+  font-size: 15px;
+  color: #0282F9;
+  line-height: 15px;
+}
+.third-main > div .info-third .description-third:last-of-type {
+  border-bottom: 1px solid #464646;
 }
 
 .jumbofoot {

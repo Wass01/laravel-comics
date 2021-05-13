@@ -1,4 +1,33 @@
 .third-main{
   height: 450px;
   background-color: #F6F6F6;
+  padding-top: 40px;
+  & > div{
+    display: flex;
+    .info-third{
+      width: 50%;
+      padding: 0 20px;
+      h2{
+        color: $titlecomics;
+        margin-bottom: 20px;
+      }
+      .description-third{
+        @include flex-align-center;
+        height: 60px;
+        border-top: 1px solid $dark;
+        h4{
+          color: $titlecomics;
+          width: 40%;
+        }
+        p{
+          font-size: 15px;
+          color: $primary;
+          line-height: 15px;
+        }
+      }
+      .description-third:last-of-type{
+        border-bottom: 1px solid $dark;
+      }
+    }
+  }
 }
