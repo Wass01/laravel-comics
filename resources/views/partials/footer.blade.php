@@ -49,16 +49,18 @@
     </div>
     <img src="./img/dc-logo-bg.png" alt="">
   </div>
-  <div class="last-foot">
-    <div class="container">
-      <button type="button" name="button">Sign-up Now</button>
-      <div class="social">
-        <h3>FOLLOW US</h3>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-        <a href="#"><i class="fab fa-periscope"></i></a>
+  <div class="pos-rel">  
+    <div class="last-foot">
+      <div class="container">
+        <button type="button" name="button">Sign-up Now</button>
+        <div class="social">
+          <h3>FOLLOW US</h3>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-periscope"></i></a>
+        </div>
       </div>
     </div>
   </div>

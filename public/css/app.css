@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+.pos-rel {
+  position: relative;
+}
+
 .headtop {
   height: 30px;
   background-color: #0282F9;
@@ -188,15 +192,20 @@ nav.navbar .search i {
 .jumbofoot img {
   position: absolute;
   left: 800px;
-  bottom: -15px;
-  z-index: 0;
+  bottom: -30px;
+  z-index: 1;
 }
 
 .last-foot {
   background-color: #303030;
   height: 100px;
+  width: 100%;
   display: flex;
   align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .last-foot > div {
   display: flex;
@@ -216,6 +225,7 @@ nav.navbar .search i {
 }
 .last-foot > div .social h3 {
   color: #0282F9;
+  margin-right: 10px;
 }
 .last-foot > div .social a {
   color: #303030;
