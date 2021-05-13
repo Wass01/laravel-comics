@@ -17,7 +17,7 @@
           <a href="#">character</a>
         </li>
         <li>
-          <a href="#">comics</a>
+          <a href="/">comics</a>
         </li>
         <li>
           <a href="#">movies</a>

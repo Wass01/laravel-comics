@@ -156,6 +156,72 @@ nav.navbar .search i {
   bottom: 20px;
 }
 
+.second-main {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.second-main .info-comics {
+  width: 60%;
+}
+.second-main .info-comics h1 {
+  color: #003F5E;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.second-main .info-comics .price-available {
+  margin-top: 2em;
+  height: 60px;
+  background-color: #55BA59;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.second-main .info-comics .price-available p {
+  color: #bafd9c;
+  margin: 0 30px;
+}
+.second-main .info-comics .price-available p span {
+  color: #ffffff;
+}
+.second-main .info-comics .price-available .check-available {
+  display: flex;
+  align-items: center;
+}
+.second-main .info-comics .price-available .check-available h4 {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  border-left: 1px solid #464646;
+  height: 60px;
+  padding: 0 20px;
+}
+.second-main .info-comics .price-available .check-available p {
+  text-transform: uppercase;
+}
+.second-main .info-comics > p {
+  color: #555555;
+  margin-top: 20px;
+  line-height: 1.4;
+}
+.second-main .advertising {
+  margin-left: 40px;
+}
+.second-main .advertising .title-adv {
+  display: flex;
+  justify-content: flex-end;
+  color: #555555;
+  text-transform: uppercase;
+}
+.second-main .advertising img {
+  margin-top: 10px;
+}
+
+.third-main {
+  height: 450px;
+  background-color: #F6F6F6;
+}
+
 .jumbofoot {
   background-image: url("../img/footer-bg.jpg");
   height: 500px;
@@ -177,6 +243,9 @@ nav.navbar .search i {
 .jumbofoot .first-list ul li a {
   color: #959595;
 }
+.jumbofoot .first-list ul li a:hover {
+  color: #0282F9;
+}
 .jumbofoot h3 {
   color: #ffffff;
   font-size: 18px;
@@ -190,6 +259,9 @@ nav.navbar .search i {
 }
 .jumbofoot .second-list ul li a {
   color: #959595;
+}
+.jumbofoot .second-list ul li a:hover {
+  color: #0282F9;
 }
 .jumbofoot p {
   color: #959595;

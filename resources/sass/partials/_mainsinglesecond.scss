@@ -1,0 +1,55 @@
+.second-main{
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  .info-comics{
+    width: 60%;
+    h1{
+      color: $titlecomics;
+      text-transform: uppercase;
+      font-size: 28px;
+    }
+    .price-available{
+      margin-top: 2em;
+      height: 60px;
+      background-color: $price;
+      @include flex-bet-center;
+      p{
+        color: $textprice;
+        margin: 0 30px;
+        span{
+          color: $white;
+        }
+      }
+      .check-available{
+        @include flex-align-center;
+        h4{
+          @include flex-align-center;
+          color: $white;
+          border-left: 1px solid $dark;
+          height: 60px;
+          padding: 0 20px;
+        }
+        p{
+          text-transform: uppercase;
+        }
+      }
+    }
+    & > p{
+      color: $paragraphcomics;
+      margin-top: 20px;
+      line-height: 1.4;
+    }
+  }
+  .advertising{
+    margin-left: 40px;
+    .title-adv{
+      @include flex-end;
+      color: $paragraphcomics;
+      text-transform: uppercase;
+    }
+    img{
+      margin-top: 10px;
+    }
+  }
+}
