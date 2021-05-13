@@ -68,13 +68,5 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="shop-comic">
-        <h4>digital comics</h4>
-        <img src="" alt="">
-      </div>
-    </div>
-
-  </div>
 
 @endsection
