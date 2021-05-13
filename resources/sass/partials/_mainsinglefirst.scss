@@ -1,0 +1,9 @@
+.bg-primary{
+  height: 80px;
+  background-color: $primary;
+  position: relative;
+  img{
+    position: absolute;
+    bottom: 20px;
+  }
+}

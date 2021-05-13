@@ -47,9 +47,9 @@
         </span>
       </p>
     </div>
-    <img src="./img/dc-logo-bg.png" alt="">
+    <img src="/img/dc-logo-bg.png" alt="">
   </div>
-  <div class="pos-rel">  
+  <div class="pos-rel">
     <div class="last-foot">
       <div class="container">
         <button type="button" name="button">Sign-up Now</button>

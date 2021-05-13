@@ -9,7 +9,7 @@
 
   <nav class="navbar container">
     <div id="logo">
-      <img src="./img/dc-logo.png" alt="logo">
+      <img src="/img/dc-logo.png" alt="logo">
     </div>
     <div class="listnav">
       <ul>

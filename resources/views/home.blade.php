@@ -8,10 +8,12 @@
       </button>
     </div>
     <div class="comics-child container">
-      @foreach($comics as $key)
+      @foreach($comics as $index => $comic)
         <div class="comics-card">
-          <img src= {{ $key['thumb'] }} alt="">
-          <p>{{ $key['series'] }}</p>
+          <a href="{{route('detail', ['id' => $index])}}">
+          <img src= "{{ $comic['thumb'] }}" alt="">
+          <p>{{ $comic['series'] }}</p>
+          </a>
         </div>
       @endforeach
     </div>

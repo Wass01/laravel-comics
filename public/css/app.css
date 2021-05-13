@@ -146,6 +146,16 @@ nav.navbar .search i {
   margin-left: 10px;
 }
 
+.bg-primary {
+  height: 80px;
+  background-color: #0282F9;
+  position: relative;
+}
+.bg-primary img {
+  position: absolute;
+  bottom: 20px;
+}
+
 .jumbofoot {
   background-image: url("../img/footer-bg.jpg");
   height: 500px;
