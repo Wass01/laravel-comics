@@ -55,11 +55,11 @@
         <button type="button" name="button">Sign-up Now</button>
         <div class="social">
           <h3>FOLLOW US</h3>
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-          <a href="#"><i class="fab fa-periscope"></i></a>
+          <a href="#"><img src="/img/footer-facebook.png" alt="facebook"></a>
+          <a href="#"><img src="/img/footer-twitter.png" alt="twitter"></a>
+          <a href="#"><img src="/img/footer-youtube.png" alt="youtube"></a>
+          <a href="#"><img src="/img/footer-pinterest.png" alt="pinterest"></a>
+          <a href="#"><img src="/img/footer-periscope.png" alt="periscope"></a>
         </div>
       </div>
     </div>

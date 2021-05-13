@@ -31,37 +31,47 @@
   </div>
 
   <!-- third main -->
-  <div class="third-main">
+  <div class="third-main pos-rel">
     <div class="container">
       <div class="talent info-third">
         <h2>Talent</h2>
         <div class="description-third">
           <h4>Art by:</h4>
+          <p class="artist-writers">
           @foreach ($comic['artists'] as $artist)
-          <p>{{ $artist }},</p>
+          {{ $artist }},
           @endforeach
+          </p>
         </div>
         <div class="description-third">
           <h4>Written by:</h4>
+          <p class="artist-writers">
           @foreach ($comic['writers'] as $writer)
-          <p>{{ $writer }},</p>
+          {{ $writer }},
           @endforeach
+          </p>
         </div>
       </div>
       <div class="specs info-third">
         <h2>Specs</h2>
         <div class="description-third">
           <h4>Series:</h4>
-          <h3>{{ $comic['series']}}<h3>
+          <h3>{{ $comic['series']}}</h3>
         </div>
         <div class="description-third">
           <h4>U.S. Price:</h4>
-          <p>{{ $comic['price']}}</p>
+          <p class="price-date">{{ $comic['price']}}</p>
         </div>
         <div class="description-third">
           <h4>On Sale Date:</h4>
-          <p>{{ $comic['sale_date']}}</p>
+          <p class="price-date">{{ $comic['sale_date']}}</p>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="shop-comic">
+        <h4>digital comics</h4>
+        <img src="" alt="">
       </div>
     </div>
 

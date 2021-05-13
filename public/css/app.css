@@ -236,17 +236,22 @@ nav.navbar .search i {
 .third-main > div .info-third .description-third {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 70px;
   border-top: 1px solid #464646;
 }
 .third-main > div .info-third .description-third h4 {
   color: #003F5E;
-  width: 40%;
+  width: 30%;
 }
-.third-main > div .info-third .description-third p {
+.third-main > div .info-third .description-third .artist-writers {
   font-size: 15px;
   color: #0282F9;
-  line-height: 15px;
+  width: 100%;
+}
+.third-main > div .info-third .description-third h3 {
+  color: #0282F9;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 .third-main > div .info-third .description-third:last-of-type {
   border-bottom: 1px solid #464646;
@@ -340,13 +345,5 @@ nav.navbar .search i {
   margin-right: 10px;
 }
 .last-foot > div .social a {
-  color: #303030;
-  background-color: #959595;
-  border: 1px solid #959595;
-  border-radius: 50%;
-  padding: 6px 9px;
-  margin-left: 15px;
-}
-.last-foot > div .social a i {
-  font-size: 22px;
+  padding: 0 10px;
 }
