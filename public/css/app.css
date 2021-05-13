@@ -150,9 +150,81 @@ nav.navbar .search i {
   background-repeat: no-repeat;
   position: relative;
 }
+.jumbofoot .first-list {
+  display: flex;
+  padding-top: 40px;
+}
+.jumbofoot .first-list ul {
+  padding-right: 70px;
+}
+.jumbofoot .first-list ul li {
+  padding-top: 10px;
+}
+.jumbofoot .first-list ul li a {
+  color: #959595;
+}
+.jumbofoot h3 {
+  color: #ffffff;
+  font-size: 18px;
+}
+.jumbofoot .second-list {
+  position: relative;
+  bottom: 100px;
+}
+.jumbofoot .second-list ul li {
+  padding-top: 10px;
+}
+.jumbofoot .second-list ul li a {
+  color: #959595;
+}
+.jumbofoot p {
+  color: #959595;
+  margin-top: 40px;
+  width: 55%;
+}
+.jumbofoot p span {
+  color: #0282F9;
+}
 .jumbofoot img {
   position: absolute;
-  left: 750px;
+  left: 800px;
   bottom: -15px;
-  height: 550px;
+  z-index: 0;
+}
+
+.last-foot {
+  background-color: #303030;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.last-foot > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.last-foot > div button {
+  text-transform: uppercase;
+  border: 2px solid #0282F9;
+  padding: 10px 15px;
+  background-color: #303030;
+  color: #ffffff;
+}
+.last-foot > div .social {
+  display: flex;
+  align-items: center;
+}
+.last-foot > div .social h3 {
+  color: #0282F9;
+}
+.last-foot > div .social a {
+  color: #303030;
+  background-color: #959595;
+  border: 1px solid #959595;
+  border-radius: 50%;
+  padding: 6px 9px;
+  margin-left: 15px;
+}
+.last-foot > div .social a i {
+  font-size: 22px;
 }

@@ -5,10 +5,81 @@
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  .first-list{
+    display: flex;
+    padding-top: 40px;
+    ul{
+      padding-right: 70px;
+      li{
+        padding-top: 10px;
+        a{
+          color: $foottext;
+        }
+      }
+    }
+  }
+  h3{
+    color: $white;
+    font-size: 18px;
+  }
+  .second-list{
+    position: relative;
+    bottom: 100px;
+    ul{
+      li{
+        padding-top: 10px;
+        a{
+          color: $foottext;
+        }
+      }
+    }
+  }
+  p{
+    color: $foottext;
+    margin-top: 40px;
+    width: 55%;
+    span{
+      color: $primary;
+    }
+  }
   img{
     position: absolute;
-    left: 750px;
+    left: 800px;
     bottom: -15px;
-    height: 550px;
+    z-index: 0;
+  }
+}
+
+// seconda parte footer
+.last-foot{
+  background-color: #303030;
+  height: 100px;
+  @include flex-align-center;
+  & > div{
+    @include flex-bet-center;
+    button{
+      text-transform: uppercase;
+      border: 2px solid $primary;
+      padding: 10px 15px;
+      background-color: #303030;
+      color: $white;
+    }
+    .social{
+      @include flex-align-center;
+      h3{
+        color: $primary;
+      }
+      a{
+        color: #303030;
+        background-color: $foottext;
+        border: 1px solid $foottext;
+        border-radius: 50%;
+        padding: 6px 9px;
+        margin-left: 15px;
+        i{
+          font-size: 22px;
+        }
+      }
+    }
   }
 }
