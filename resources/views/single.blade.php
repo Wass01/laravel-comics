@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('main')
+
   <!-- prima parte main -->
   <div class="bg-primary">
     <div class="container">
